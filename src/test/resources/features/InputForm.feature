@@ -12,5 +12,9 @@ Feature: As a User should submit all the form from input form Dropdown
     And User clicks Get Total button 
      
      
-    
+@Test3
+@SMOKE
+@Regression
+  Scenario: User submit a simple demo form 
+    Given User Navigate to the Easy Selenium Home Page    
     
