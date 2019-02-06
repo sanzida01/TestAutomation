@@ -9,6 +9,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "classpath:features",
+		glue = {"stepDefinition"},
 		plugin = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json"},
 		monochrome = true, //Display the console output in a readable format
 		dryRun = false,
